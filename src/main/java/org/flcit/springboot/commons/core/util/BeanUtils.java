@@ -51,7 +51,7 @@ public final class BeanUtils {
      */
     public static void refreshBeans(ApplicationContext applicationContext) {
         refreshBeans(applicationContext, applicationContext.getBeansWithAnnotation(ConfigurationProperties.class));
-        refreshBeans(applicationContext, getBeansWithAnnotation(applicationContext, "com.flc.sandbox.commons.core.annotation.RefreshScope"));
+        refreshBeans(applicationContext, getBeansWithAnnotation(applicationContext, "org.flcit.springboot.commons.core.annotation.RefreshScope"));
         refreshBeans(applicationContext, getBeansWithAnnotation(applicationContext, "org.springframework.cloud.context.scope.refresh.RefreshScope"));
     }
 
