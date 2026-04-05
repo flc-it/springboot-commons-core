@@ -18,7 +18,7 @@ package org.flcit.springboot.commons.core.log.domain;
 
 /**
  * @param <T>
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public class BaseLogEvent<T> {

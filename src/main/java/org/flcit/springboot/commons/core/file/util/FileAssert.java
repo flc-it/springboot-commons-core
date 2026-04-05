@@ -23,7 +23,7 @@ import org.springframework.core.io.Resource;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public final class FileAssert {

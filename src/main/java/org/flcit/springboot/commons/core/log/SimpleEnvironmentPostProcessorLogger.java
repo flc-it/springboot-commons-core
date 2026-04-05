@@ -27,7 +27,7 @@ import org.springframework.util.CollectionUtils;
 /**
  * @param <L>
  * @param <T>
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public abstract class SimpleEnvironmentPostProcessorLogger<L, T> {

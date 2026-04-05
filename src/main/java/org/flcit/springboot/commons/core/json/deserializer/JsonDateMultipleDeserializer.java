@@ -38,7 +38,7 @@ import com.fasterxml.jackson.databind.deser.ContextualDeserializer;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public class JsonDateMultipleDeserializer extends JsonDeserializer<Date> implements ContextualDeserializer {

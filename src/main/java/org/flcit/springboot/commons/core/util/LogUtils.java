@@ -22,7 +22,7 @@ import org.springframework.core.log.LogFormatUtils;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public final class LogUtils {

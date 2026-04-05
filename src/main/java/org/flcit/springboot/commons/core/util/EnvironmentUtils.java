@@ -22,7 +22,7 @@ import org.springframework.core.env.Profiles;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public final class EnvironmentUtils {

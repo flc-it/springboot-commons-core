@@ -24,7 +24,7 @@ import org.springframework.util.MultiValueMap;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public final class MultiValueMapUtils {

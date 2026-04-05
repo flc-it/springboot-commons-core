@@ -25,7 +25,7 @@ import org.springframework.util.FileCopyUtils;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public final class SqlFileUtils {

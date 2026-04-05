@@ -25,7 +25,7 @@ import org.springframework.http.MediaType;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public class FileInputStreamResource extends InputStreamResource {
