@@ -39,7 +39,7 @@ import org.springframework.util.StringUtils;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public final class BeanUtils {

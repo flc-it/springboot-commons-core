@@ -22,7 +22,7 @@ import org.springframework.http.HttpStatus;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 @ResponseStatus(HttpStatus.CONFLICT)

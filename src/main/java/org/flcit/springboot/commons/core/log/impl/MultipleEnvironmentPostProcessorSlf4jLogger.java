@@ -24,7 +24,7 @@ import org.slf4j.event.Level;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public final class MultipleEnvironmentPostProcessorSlf4jLogger extends MultipleEnvironmentPostProcessorLogger<Logger, Level> {

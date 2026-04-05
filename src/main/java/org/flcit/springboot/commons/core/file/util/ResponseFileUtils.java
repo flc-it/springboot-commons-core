@@ -16,7 +16,7 @@
 
 package org.flcit.springboot.commons.core.file.util;
 
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.flcit.commons.core.file.util.ContentTypeUtils;
 import org.flcit.commons.core.file.util.FileUtils;
@@ -29,7 +29,7 @@ import org.springframework.util.StringUtils;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public final class ResponseFileUtils {

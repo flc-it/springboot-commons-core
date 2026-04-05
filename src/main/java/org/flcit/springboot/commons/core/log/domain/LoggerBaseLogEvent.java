@@ -19,7 +19,7 @@ package org.flcit.springboot.commons.core.log.domain;
 /**
  * @param <L>
  * @param <T>
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public class LoggerBaseLogEvent<L, T> extends BaseLogEvent<T> {

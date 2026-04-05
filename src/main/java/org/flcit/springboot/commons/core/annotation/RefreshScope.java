@@ -27,7 +27,7 @@ import org.springframework.context.annotation.ScopedProxyMode;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 @Target({ ElementType.TYPE, ElementType.METHOD })

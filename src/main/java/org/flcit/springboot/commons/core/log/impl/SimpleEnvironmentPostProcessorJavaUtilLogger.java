@@ -24,7 +24,7 @@ import org.flcit.springboot.commons.core.log.domain.BaseLogEvent;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public class SimpleEnvironmentPostProcessorJavaUtilLogger extends SimpleEnvironmentPostProcessorLogger<Logger, Level> {

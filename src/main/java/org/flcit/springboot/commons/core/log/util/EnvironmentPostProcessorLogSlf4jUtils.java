@@ -24,7 +24,7 @@ import org.slf4j.event.Level;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public final class EnvironmentPostProcessorLogSlf4jUtils {
