@@ -14,27 +14,17 @@
  * limitations under the License.
  */
 
-package org.flcit.springboot.commons.core.exception;
-
-import org.springframework.web.bind.annotation.ResponseStatus;
-import org.springframework.http.HttpStatus;
+package org.flcit.springboot.commons.core.http;
 
 /**
  * 
- * @since 1.0.0
+ * @since 
  * @author Florian Lestic
  */
-@SuppressWarnings("java:S110")
-@ResponseStatus(HttpStatus.GONE)
-public class ExpiredException extends GoneException {
+public interface ResponseStatus {
 
-    private static final long serialVersionUID = 1L;
-
-    /**
-     * 
-     */
-    public ExpiredException() {
-        super("The validity has expired");
+    default int code() {
+        return 500;
     }
 
 }

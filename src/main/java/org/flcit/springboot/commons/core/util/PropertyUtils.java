@@ -134,8 +134,8 @@ public final class PropertyUtils {
         if (value == null) {
             return defaultValue;
         }
-        if (value instanceof Boolean) {
-            return (Boolean) value;
+        if (value instanceof Boolean bool) {
+            return bool;
         }
         return toBoolean(value.toString(), defaultValue);
     }

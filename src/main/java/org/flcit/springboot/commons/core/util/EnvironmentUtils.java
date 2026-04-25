@@ -16,7 +16,6 @@
 
 package org.flcit.springboot.commons.core.util;
 
-import org.flcit.commons.core.util.ObjectUtils;
 import org.springframework.core.env.Environment;
 import org.springframework.core.env.Profiles;
 
@@ -71,11 +70,11 @@ public final class EnvironmentUtils {
      * @return
      */
     public static String getEnvironment(final Environment environment) {
-        return ObjectUtils.getOrDefault(
-                environment.getProperty("server.exec.environment"),
-                () -> environment.getProperty("info.server.environment"),
-                () -> environment.getRequiredProperty("info.app.custom.environment")
-        );
+        return getEnvironment(environment, "server.exec.environment");
+    }
+
+    public static String getEnvironment(final Environment environment, final String property) {
+        return environment.getRequiredProperty(property);
     }
 
 }

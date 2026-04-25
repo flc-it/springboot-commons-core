@@ -158,8 +158,8 @@ public final class BeanUtils {
      * @throws Exception
      */
     public static void initializing(Object bean) throws Exception {
-        if (bean instanceof InitializingBean) {
-            ((InitializingBean) bean).afterPropertiesSet();
+        if (bean instanceof InitializingBean initializingBean) {
+            initializingBean.afterPropertiesSet();
         }
     }
 
