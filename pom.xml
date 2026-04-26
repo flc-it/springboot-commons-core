@@ -50,7 +50,7 @@
         <spring.boot.version>3.5.14</spring.boot.version>
         <!-- Internal dependencies version -->
         <org.flcit.commons.core.version>1.0.0</org.flcit.commons.core.version>
-        <org.flcit.springboot.commons.test.version>1.0.0-SNAPSHOT</org.flcit.springboot.commons.test.version>
+        <org.flcit.springboot.commons.test.version>1.0.0</org.flcit.springboot.commons.test.version>
         <!-- External dependencies version -->
     </properties>
 
